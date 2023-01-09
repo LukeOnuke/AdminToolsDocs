@@ -1,4 +1,4 @@
-# AdminTools documentation home
+# Documentation Home
 All documentation for admintools is located here. You can contribute to this
 document if you want to by contributing to 
 (AdminToolsDocs on github)[https://github.com/LukeOnuke/lmark/tree/main/docs/docs]

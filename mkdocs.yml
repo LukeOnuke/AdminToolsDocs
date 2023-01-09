@@ -1,0 +1,22 @@
+
+site_name: AdminTools Documentation
+repo_url: https://github.com/LukeOnuke/AdminToolsDocs/
+edit_uri: /edit/main/docs/
+site_description: Documentation for AdminTools - The online multi-session RCON client for minecraft servers.
+theme:
+  name: material
+  features:
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode

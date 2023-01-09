@@ -1,2 +1,2 @@
 # AdminToolsDocs
-Documentation for https://admintools.app
+Documentation for https://admintools.app.

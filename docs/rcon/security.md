@@ -5,6 +5,7 @@ for good security practices, so have a read and be an informed administrator.
 These are by far the most common ways of gaining authorised access.
 
 # Brute-forcing
+## What is it?
 Automated random password guessing.
 
 ## Should you be worried?

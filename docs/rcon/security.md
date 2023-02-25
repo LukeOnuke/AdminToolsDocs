@@ -15,7 +15,7 @@ environment you should give it a think.
 ## How to defend yourself?
 - Never use common passwords like `password`, `123456`, `password1`
 - Use passwords longer than 20 characters. *Remember, you can use a sentence as 
-  a password.*
+  a password.* 
 
 # Network sniffing
 ## What is it

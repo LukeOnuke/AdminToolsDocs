@@ -1,3 +1,13 @@
+# Changelog
+
+# 5.0.0
+5.5.2023
+- Added client command interpreter, use !help to see what's on it.
+- Fixed failed connections waiting so long.
+- Coloriser doesn't repeat segment when reset color code is used.
+- Footer links are now correct.
+- Numerous little backend fixes.
+
 # 4.0.0
 25.2.2023
 - Transitions now actually work and look hella better.

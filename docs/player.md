@@ -1,6 +1,8 @@
 # Player Lookup
 This page contains info about `/app/player/<player_name>`.
 
+This page does not require being logged in.
+
 ## From where player lookup gets its data?
 Player Lookup querries data from two sources.
 - Mojang

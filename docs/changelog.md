@@ -1,5 +1,22 @@
 # Changelog
 
+# 6.0.0
+19.6.2023.
+- Added info blurb to add server
+- Improved add server gui
+- GUI polish
+
+# 5.2.0
+8.6.2023.
+- Updated front page.
+
+- Connection issues should be solved now.
+
+# 5.1.0
+28.5.2023.
+
+- Improved backend
+
 # 5.0.0
 5.5.2023
 - Added client command interpreter, use !help to see what's on it.

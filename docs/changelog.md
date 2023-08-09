@@ -1,4 +1,12 @@
 # Changelog
+This page chronicles all the changes for admintools.app.
+
+# 7.0.0
+9.8.2023.
+
+- Added support for ATC.
+- Improved console gui.
+- Smoothed add server flow.
 
 # 6.0.0
 19.6.2023.

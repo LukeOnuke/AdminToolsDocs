@@ -14,9 +14,9 @@ protocol over https.
 
 ## How do I use it?
 
-1. Download and install the ATC plugin from either modrtinth or spigot.
-2. Open admintools.app and go to add server.
-3. Choose ATC and input your name. Then press the create and copy uuid button.
+1. Download and install the **Admin Tools Connect** plugin from either *modrtinth* or *spigot*.
+2. Open [admintools.app](https://admintools.app) and go to add server.
+3. Choose `ATC` and input the name you want for that server. Then press the `generate server id and copy` button.
 4. Paste that command in your minecraft server.
 5. You now should be able to connect to it by clicking on the server card.
 

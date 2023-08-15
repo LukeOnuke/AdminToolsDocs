@@ -1,11 +1,3 @@
-```txt                  
- _____
-|  _  |___ ___ _ _|_|___ _ _ _ 
-|   __|  _| -_| | | | -_| | | |
-|__|  |_| |___|\_/|_|___|_____|
-                               
-```
-
 # Admin Tools Connect
 **Admin Tools Connect** or **ATC** is a peer to peer remote console
 protocol over https.

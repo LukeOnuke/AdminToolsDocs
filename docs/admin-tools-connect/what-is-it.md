@@ -10,7 +10,8 @@
 **Admin Tools Connect** or **ATC** is a peer to peer remote console
 protocol over https.
 
-***add more tech description***
+Consult [https://github.com/Pequla/atconnect#readme](https://github.com/Pequla/atconnect#readme)
+for in depth explainer!
 
 ## How do I use it?
 

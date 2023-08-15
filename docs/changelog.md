@@ -1,6 +1,12 @@
 # Changelog
 This page chronicles all the changes for admintools.app.
 
+# 7.1.0
+15.8.2023.
+
+- Status indicator now shows up in tabs when using ATC.
+- (kinda) Fixed autoscroll.
+
 # 7.0.0
 9.8.2023.
 

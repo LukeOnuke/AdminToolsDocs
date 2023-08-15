@@ -11,15 +11,17 @@
       
       
       
-        <link rel="prev" href="../debugging/">
+        <link rel="prev" href="../../settings/">
       
+      
+        <link rel="next" href="../../rcon-technical/debugging/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
     
     
       
-        <title>RCON Security - AdminTools Documentation</title>
+        <title>What is it - AdminTools Documentation</title>
       
     
     
@@ -71,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rcon-security" class="md-skip">
+        <a href="#admin-tools-connect" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RCON Security
+              What is it
             
           </span>
         </div>
@@ -334,14 +336,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
       
       
       
@@ -350,7 +354,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Admin tools connect
@@ -361,11 +365,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../admin%20tools%20connect/what-is-it/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          What is it
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         What is it
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-use-it" class="md-nav__link">
+    How do I use it?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -383,16 +428,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
       
       
       
@@ -401,7 +444,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Rcon technical
@@ -414,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../debugging/" class="md-nav__link">
+      <a href="../../rcon-technical/debugging/" class="md-nav__link">
         Rcon debugging
       </a>
     </li>
@@ -426,21 +469,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../rcon-technical/security/" class="md-nav__link">
         RCON Security
       </a>
-      
     </li>
   
 
@@ -472,6 +505,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-use-it" class="md-nav__link">
+    How do I use it?
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -488,34 +536,25 @@
   
 
 
-<h1 id="rcon-security">RCON Security</h1>
-<p>Even though AdminTools is built with security in mind it can't be a substitute
-for good security practices, so have a read and be an informed administrator.</p>
-<p>These are by far the most common ways of gaining authorised access.</p>
-<h1 id="brute-forcing">Brute-forcing</h1>
-<h2 id="what-is-it">What is it?</h2>
-<p>Automated random password guessing.</p>
-<h2 id="should-you-be-worried">Should you be worried?</h2>
-<p>As this is one of the most common ways of gaining unauthorised access to any
-environment you should give it a think.</p>
-<h2 id="how-to-defend-yourself">How to defend yourself?</h2>
-<ul>
-<li>Never use common passwords like <code>password</code>, <code>123456</code>, <code>password1</code></li>
-<li>Use passwords longer than 20 characters. <em>Remember, you can use a sentence as 
-  a password.</em> </li>
-</ul>
-<h1 id="network-sniffing">Network sniffing</h1>
-<h2 id="what-is-it_1">What is it</h2>
-<p>Monitoring all the network traffic on a network.</p>
-<h2 id="should-you-be-worried_1">Should you be worried</h2>
-<p>If you are self-hosting you shouldn't worry about this problem. 
-Because if a hacker is able to listen to your network traffic it means that
-he has got full access to your network, and then you have got bigger problems
-than your minecraft server.</p>
-<p>If you are using a hosting provider you should keep this into consideration, as
-you don't know how secure their network is.</p>
-<h2 id="how-to-defend-yourself_1">How to defend yourself?</h2>
-<p>Always keep your network protected.</p>
+<pre><code class="language-txt"> _____
+|  _  |___ ___ _ _|_|___ _ _ _ 
+|   __|  _| -_| | | | -_| | | |
+|__|  |_| |___|\_/|_|___|_____|
+
+</code></pre>
+<h1 id="admin-tools-connect">Admin Tools Connect</h1>
+<p><strong>Admin Tools Connect</strong> or <strong>ATC</strong> is a peer to peer remote console
+protocol over https.</p>
+<p>Consult <a href="https://github.com/Pequla/atconnect#readme">https://github.com/Pequla/atconnect#readme</a>
+for in depth explainer!</p>
+<h2 id="how-do-i-use-it">How do I use it?</h2>
+<ol>
+<li>Download and install the <strong>Admin Tools Connect</strong> plugin from either <em>modrtinth</em> or <em>spigot</em>.</li>
+<li>Open <a href="https://admintools.app">admintools.app</a> and go to add server.</li>
+<li>Choose <code>ATC</code> and input the name you want for that server. Then press the <code>generate server id and copy</code> button.</li>
+<li>Paste that command in your minecraft server.</li>
+<li>You now should be able to connect to it by clicking on the server card.</li>
+</ol>
 
 
 

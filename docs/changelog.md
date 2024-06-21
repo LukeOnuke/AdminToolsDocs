@@ -1,6 +1,22 @@
 # Changelog
 This page chronicles all the changes for admintools.app.
 
+# 8.0.0
+21.6.2024.
+
+- Totaly redone the login flow.
+- Improved RCON/ATC console.
+  - Improved/Redone design of the console.
+  - Improved responsivness of ATC mode in console.
+  - Reduced response wait time on status indicator.
+  - Minor improvements.
+- Miscelanius optimisations.
+
+# 7.2.0
+8.1.2024.
+- Status indicator now works correctly in ATC connections.
+- Enlarged GO TO APP button.
+
 # 7.1.0
 15.8.2023.
 
